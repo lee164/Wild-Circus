@@ -1,0 +1,137 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+
+
+.container{
+	width: 1380px;
+	height: 2800px;
+	
+	margin-top: 600px	
+}
+
+body{
+	background-image: url(http://l.zirnhelt.free.fr/WildCircus/vintage_wild_circus.jpg);
+	 background-repeat: no-repeat;
+	 margin: auto;
+}
+
+h1, h2, h3{
+	font-family: 'Amatic SC';
+	text-align: center;
+	color: #631c1c
+}
+
+h1{
+	font-size: 70px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.menu{
+	border-radius: 20px 0 20px 0;
+	border: 1px solid black;
+	background: #7D4921;
+	text-align: center;
+	margin:0 300px 0 300px; 
+}
+
+.menu li{
+	display: inline-block;
+	padding:10px 0 10px 0;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 30px;
+}
+
+.menu li a:hover{
+	color: #631c1c;
+}
+
+.align3elements{
+	    margin-left: 40px;
+}
+	
+.align3elements li{
+	display: inline-block;	
+}
+	
+.align3elements li div{
+	float: left;
+	width: 400px;
+	height: 440px;
+	border: 1px solid white;	
+}
+
+.align3elements p{
+	font-size: 20px;
+	text-align: justify;
+	color: black;
+	margin: 0 5px 0 5px;
+	height:100px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 700px;
+	margin:0 auto;
+	text-align: center;
+	vertical-align: center;
+	background:#CD503A;
+}
+
+tr, td{
+	border: 1px solid black;
+	color: white
+}
+
+hr{
+	margin:0 auto;
+	margin-top: 30px;
+	width: 400px;
+	color: white;
+}
+
+img{
+	padding-top: 40px;
+}
+#about p{
+	margin: 0 auto;
+	width: 1200px;
+	font-size: 20px;
+	text-align: justify;
+}
+form{
+	margin-left: 500px;
+	display: block;
+	width: 250px;
+	height: 200px;
+}
+#my_name{
+	margin-left: 580px;
+	margin-top: 100px;
+	font-size: 20px;
+}
+#my_courses{
+	margin:0 auto;
+	margin-top: 200px;
+	width: 710px;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: blue;
+}
